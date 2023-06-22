@@ -256,6 +256,7 @@ body{
 
 
 /*** Destination ***/
+
 .destination img {
     transition: .5s;
 }
@@ -371,10 +372,11 @@ body{
     align-items: flex-end;
     justify-content: center;
 }
+
 .section{
     width: 100vw;
-    height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('https://img.freepik.com/photos-gratuite/ecran-numerique-journee-environnement_23-2148884835.jpg?w=1480&t=st=1687395641~exp=1687396241~hmac=5f3c591bab708853411d3dc821b7c49988164972cf44a44f2a6ca8f060ce7df1');
+    height: 50vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('https://img.freepik.com/photos-gratuite/ecran-numerique-journee-environnement_23-2148884835.jpg?w=1480&t=st=1687395641~exp=1687396241~hmac=5f3c591bab708853411d3dc821b7c49988164972cf44a44f2a6ca8f060ce7df1') fixed center;
 }
 
 .testimonial-carousel .owl-dot {
