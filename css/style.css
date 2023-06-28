@@ -226,7 +226,7 @@ body{
 
 .hero-project_agro {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://fondationmarieesther.ci/wp-content/uploads/elementor/thumbs/IMG_20201007_095926_8-scaled-ppkoo67dku69f4ahm0qkimbk83n4r1eejrz6b5dqiw.jpg);
+    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://img.freepik.com/vecteurs-libre/vert-bulle-feuilles_1035-1715.jpg?size=626&ext=jpg&ga=GA1.1.181781230.1687186464&semt=ais);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,7 +237,7 @@ body{
 
 .hero-todo {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://i.ytimg.com/vi/YAHi-eB3k30/hqdefault.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYciBBKDowDw==&rs=AOn4CLC8KRXE0C9C-KMROSvDaXyYZr8p5w);
+    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://www.ivoire24.info/wp-content/uploads/2021/07/Screenshot_20210714-181226.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -246,6 +246,16 @@ body{
     align-items:center;
 }
 
+.hero-contact {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://www.ivoire24.info/wp-content/uploads/2021/07/Screenshot_20210714-181226.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
 
 .ceo-show{
     background: #5c7c6f;
