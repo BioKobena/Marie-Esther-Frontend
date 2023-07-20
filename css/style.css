@@ -439,8 +439,8 @@ body{
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    /* background: var(--primary) !important; */
-    /* border-color: var(--primary) !important; */
+    background: var(--primary) !important;
+    border-color: var(--primary) !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
