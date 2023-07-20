@@ -213,6 +213,17 @@ body{
     align-items:center;
 }
 
+.hero-training{
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://img.freepik.com/photos-premium/groupe-benevoles-africains-heureux_151355-6215.jpg?w=2000);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
 .hero-project {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(../img/trois.jpeg);
@@ -248,7 +259,7 @@ body{
 
 .hero-contact {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://img.freepik.com/photos-gratuite/main-soutenant-element-conception-idee-recyclage_53876-102375.jpg?w=1380&t=st=1687984009~exp=1687984609~hmac=abea46d826083c9005aa86700d95731588abe60de1277fa63e94ffbb62ec6297);
+    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://img.freepik.com/photos-gratuite/gros-plan-jeune-femme-souriante-parler-telephone-portable_23-2147936148.jpg?w=2000&t=st=1689809831~exp=1689810431~hmac=ff74fc54ecf41c7fba01d0270c880122129d68e52b9cb43f072fc62cb2cd3eae);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -313,7 +324,7 @@ body{
 }
 
 .service-item:hover {
-    background: var(--primary);
+    background: #318664;
 }
 
 .service-item * {
