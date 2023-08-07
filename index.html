@@ -6,6 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
     <!-- Favicon -->
     <link
@@ -17,9 +18,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <!-- Google Web Fonts -->
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Icon Font Stylesheet -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
@@ -82,7 +83,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
-            <a href="./index.html" class="nav-item nav-link fw-normal w-20">Accueil</a>
+            <a href="./index.html" class="nav-item nav-link fw-normal w-20 active">Accueil</a>
             <a href="./about.html" class="nav-item nav-link fw-normal"
               >Fondation Marie Esther</a
             >
@@ -126,10 +127,11 @@
               >Contact</a
             >
           </div>
+          <a href="" class="btn btn-danger rounded-pill py-2 px-4">Faites un don</a>
         </div>
       </nav>
 
-      <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+      <!-- <div class="container-fluid bg-primary py-5 mb-5 hero-header">
         <div class="container py-5">
           <div class="row justify-content-center py-5">
             <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -138,13 +140,13 @@
                 style="
                   text-shadow: 0.1rem 0.2rem 0.1rem black;
                   font-weight: 600;
-                  font-family: Roboto;
+                  font-family: ;
                   font-size: 3.5rem;
                 "
               >
                 Découvrez la Fondation Marie Esther
               </h1>
-              <p class="fs-4 text-white mb-4 animated slideInDown">
+              <p class="fs-4 text-white mb-4 ">
                 Promouvoir le développement humain durable avec un accent sur
                 les populations rurales.
               </p>
@@ -156,166 +158,127 @@
             </div>
           </div>
         </div>
+      </div> -->
+    
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+    
+            <img class="animated hero-header w-100" src="https://fondationmarieesther.ci/wp-content/uploads/elementor/thumbs/SARA-ppl2216v4bsz6qd0vt2g8ivb62m1p5cqgrl20ox6rs.jpg" alt="Image 1">
+            <div class="text-container animated slideInDown">Rencontre à la bergerie</div>
+          </div>
+          <div class="swiper-slide">
+            <img class="animated hero-header w-100" src="https://fondationmarieesther.ci/wp-content/uploads/elementor/thumbs/SARA-ppl2216v4bsz6qd0vt2g8ivb62m1p5cqgrl20ox6rs.jpg" alt="Image 2">
+            <div class="text-container animated slideInDown">Rencontre à la bergerie</div>
+          </div>
+          <div class="swiper-slide">
+            <img class="animated hero-header w-100" src="https://fondationmarieesther.ci/wp-content/uploads/elementor/thumbs/SARA-ppl2216v4bsz6qd0vt2g8ivb62m1p5cqgrl20ox6rs.jpg" alt="Image 3">
+            <div class="text-container animated slideInDown">Rencontre à la bergerie</div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
+    
     </div>
     <!-- Navbar & Hero End -->
 
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-          <!-- <h6 class="section-title bg-white text-center text-primary px-3">
-              Services
-            </h6> -->
-          <h3
-            class="mb-5"
-            style="
-              font-family: Roboto;
-              font-weight: 400;
-              font-size: 2rem;
-              letter-spacing: 0.2rem;
-              color: #5c7c6f;
-            "
-          >
-            Nous oeuvrons pour le développement humain durable
-          </h3>
-          <div class="row g-4 justify-content-center">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="package-item">
-                <div class="overflow-hidden">
-                  <img class="img-fluid" src="./img/deux.jpeg" alt="" />
-                </div>
-                <div class="d-flex justify-content-center p-1">
-                  <h3
-                    class="mb-0"
-                    style="
-                      font-family: Roboto;
-                      font-weight: 600;
-                      font-size: 1.6rem;
-                      margin-top: 0.5rem;
-                      letter-spacing: 0.1rem;
-                    "
-                  >
-                    Notre mission
-                  </h3>
-                </div>
-                <div class="text-center p-4">
-                  <p>
-                    Accompagner les personnes et les communautés à réaliser leur
-                    plein potentiel, dans une démarche de Développement Durable.
-                  </p>
+        <div class="container-xxl py-5 destination">
+          <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h6 class="section-title bg-white text-center px-3" style="color: #1b7ec1;">
+                Axes d’intervention
+              </h6>
+            </div>
+            <div class="row g-4 d-flex justify-content-center align-items-center mt-2">
+              <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="package-item">
+                  <div class="overflow-hidden">
+                    <img
+                      class="img-fluid"
+                      src="https://img.freepik.com/vecteurs-libre/personnes-illustration-energies-renouvelables_53876-43172.jpg?w=1480&t=st=1691445712~exp=1691446312~hmac=58d3cd88a1fb9ce5ea66b337fdbe4776dc2e17995b0cea3c877bed72aa27f17b"
+                      style="width: 100%; height: 14rem"
+                    />
+                  </div>
+                  <div class="">
+                    <h3
+                      class="mb-0"
+                      style="
+                        font-family: Din Pro;
+                        font-weight: 600;
+                        font-size: 1.2rem;
+                        margin-top: 0.5rem;
+                        letter-spacing: 0.1rem;
+                        text-align: center;
+                        color:#1b7ec1;
+                      "
+                    >
+                    Développement Humain Durable
+                <br>
+                    </h3>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="package-item">
-                <div class="overflow-hidden">
-                  <img
-                    class="img-fluid"
-                    src="./img/trois.jpeg"
-                    style="width: 100%; height: 14rem"
-                  />
-                </div>
-                <div class="">
-                  <h3
-                    class="mb-0"
-                    style="
-                      font-family: Roboto;
-                      font-weight: 600;
-                      font-size: 1.6rem;
-                      margin-top: 0.5rem;
-                      letter-spacing: 0.1rem;
-                    "
-                  >
-                    Axes d’intervention
-                  </h3>
-                </div>
-                <div class="p-4">
-                  <p class="mb-0">
-                    <i
-                      class="fa-solid fa-arrow-up-right-dots fa-beat text-primary"
-                    ></i>
-                    &nbsp; Développement Humain Durable
-                  </p>
-                  <p class="mb-0">
-                  
-                    <i class="fa-solid fa-leaf fa-shake text-primary"></i>
-                    &nbsp; Economie verte 
-                  </p>
+          </div>
 
-                  <p class="mb-0">
-                    <i
-                      class="fa-solid fa-tower-broadcast fa-bounce text-primary"
-                    ></i>
-                    &nbsp;Communication pour le développement
-                  </p>
-                  <br>
-                </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="package-item">
+              <div class="overflow-hidden">
+                <img
+                  class="img-fluid"
+                  src="https://img.freepik.com/photos-gratuite/pot-economie-verte-argent-plante-croissance_53876-104972.jpg?w=2000&t=st=1691446388~exp=1691446988~hmac=942c5fe606313d6eabd03ff29b08f29978ed278e7a69a9cdc4a4bd0411f2c813"
+                  style="width: 100%; height: 14rem"
+                />
               </div>
+              <div class="">
+                <h3
+                  class="mb-0"
+                  style="
+                    font-family: Din Pro;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                    margin-top: 0.5rem;
+                    letter-spacing: 0.1rem;
+                    text-align: center;
+                    color:#1b7ec1;
+                  "
+                >
+                Economie verte
+                <br>
+                <br>
+                </h3>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="package-item">
-                <div class="overflow-hidden">
-                  <img
-                    class="img-fluid"
-                    src="./img/quatre.jpeg"
-                    style="width: 100%; height: 14rem"
-                  />
-                </div>
-                <div class="d-flex justify-content-center p-1">
-                  <h3
-                    class="mb-0"
-                    style="
-                      font-family: Roboto;
-                      font-weight: 600;
-                      font-size: 1.6rem;
-                      margin-top: 0.5rem;
-                      letter-spacing: 0.1rem;
-                    "
-                  >
-                    Notre vision
-                  </h3>
-                </div>
-                <div class="text-center p-4">
-                  <p>
-                    Accompagner les personnes et les communautés à réaliser leur
-                    plein potentiel, dans une démarche de Développement Durable.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-              <div class="package-item">
-                <div class="overflow-hidden">
-                  <img
-                    class="img-fluid"
-                    src="./img/mission.jpeg"
-                    style="width: 100%; height: 14rem"
-                  />
-                </div>
-                <div class="d-flex justify-content-center p-1">
-                  <h3
-                    class="mb-0"
-                    style="
-                      font-family: Roboto;
-                      font-weight: 600;
-                      font-size: 1.6rem;
-                      margin-top: 0.5rem;
-                      letter-spacing: 0.1rem;
-                    "
-                  >
-                    Nos objectifs
-                  </h3>
-                </div>
-                <div class="text-center p-4">
-                  <p>
-                    Créer une politique participative avec les populations
-                    locales autour du développement durable.
-                  </p>
-                  <br>
-                </div>
-              </div>
-            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="package-item">
+          <div class="overflow-hidden">
+            <img
+              class="img-fluid"
+              src="https://img.freepik.com/photos-gratuite/gros-plan-collegue-au-travail_23-2148894048.jpg?w=2000&t=st=1691446514~exp=1691447114~hmac=b99598c96af1118c264573d0e782d36ceb7aca8df5cf2c8682abf618c154afa3"
+              style="width: 100%; height: 14rem"
+            />
+          </div>
+          <div class="">
+            <h3
+              class="mb-0"
+              style="
+                font-family: Din Pro;
+                font-weight: 600;
+                font-size: 1.2rem;
+                margin-top: 0.5rem;
+                letter-spacing: 0.1rem;
+                text-align: center;
+                color:#1b7ec1;
+              "
+            >
+            Communication pour le développement
+            </h3>
+        </div>
+      </div>
+  </div>
           </div>
         </div>
 
@@ -323,14 +286,14 @@
         <div class="container-xxl py-5 destination">
           <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-              <h6 class="section-title bg-white text-center text-primary px-3">
+              <h6 class="section-title bg-white text-center px-3" style="color: #1b7ec1;">
                 Projets
               </h6>
               <h1
                 class="mb-5"
                 style="
-                  color: #5c7c6f;
-                  font-family: Roboto;
+                  color:#1b7ec1;
+                  font-family: Din Pro;
                   font-weight: 400;
                   letter-spacing: 0.2rem;
                 "
@@ -401,10 +364,15 @@
 
         <div class="row g-4 mt-4">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">
+            <h6 class="section-title bg-white text-center px-3" style="color: #1b7ec1;">
               Activités
             </h6>
-            <h1 class="mb-5" style="color: #5c7c6f">Nos Activités récentes</h1>
+            <h1 class="mb-5" style="
+            color:#1b7ec1;
+            font-family: Din Pro;
+            font-weight: 400;
+            letter-spacing: 0.2rem;
+          ">Nos Activités récentes</h1>
           </div>
           <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="service-item rounded pt-3">
@@ -416,10 +384,6 @@
                   pour pérenniser les activités agricoles économiques des femmes
                   d’Aboudé et créer un cadre pour assurer le renforcement de
                   leur capacité et épanouissement.
-                  <br />
-                  <br />
-                  <br />
-                  <br />
                 </p>
                 <div class="btn btn-outline-danger">
                   <a href="./project.html">EN SAVOIR PLUS</a>
@@ -439,10 +403,6 @@
                   d’Aboudé Accompagnement des agriculteurs de 4 villages à la
                   mise en œuvre de l’agroforesterie dans les parcelles
                   cultivables dégradées et dans les plantations de cacao
-                  <br />
-                  <br />
-                  <br />
-                  <br />
                 </p>
                 <div class="btn btn-outline-danger">
                   <a href="./project.html">EN SAVOIR PLUS</a>
@@ -460,11 +420,7 @@
                   d’Agroforesterie initié par la FME : Projet d’éducation des
                   élèves à l’écocitoyenneté et à la préservation de leur milieu
                   naturel. 12 écoles dans 03 villages d’Aboudé
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
+                  
                 </p>
                 <div class="btn btn-outline-danger">
                   <a href="./project.html">EN SAVOIR PLUS</a>
@@ -481,14 +437,14 @@
                 <p>
                   2020 : Projet de plantation d’arbres fertilitaires pour une
                   cacaoculture biologiques à Aboudé (Partenaire APAF)
-                  <br />
-                  <br />
+                 
+                 
                   2021 : Géolocalisation de quelques parcelles par l’Equipe
                   d’APAF Géolocalisation de quelques parcelles par l’Equipe
                   d’APAF
-                  <br />
-                  <br />
-                  <br />
+                 
+                 
+                 
                 </p>
                 <div class="btn btn-outline-danger">
                   <a href="./project.html">EN SAVOIR PLUS</a>
@@ -506,12 +462,9 @@
                   Marie-Esther à Aboudé Boa vincent, (parrainé par le Conseil
                   Régional de l’Agnéby-Tiassa, en Collaboration avec les
                   Directions Régionales du MINEDD et du MINEF)
-                  <br />
+                 
                   Près de 200 arbres forestiers plantés issus de la pépinière de
-                  la Fondation Marie-Esther
-                  <br />
-                  <br />
-                  <br />
+                  la Fondation Marie-Esther 
                 </p>
                 <div class="btn btn-outline-danger">
                   <a href="./project.html">EN SAVOIR PLUS</a>
@@ -575,14 +528,6 @@
                   2022-2023 : Projet de création et de réhabilitation de 600 ha
                   vergers de cacao conventionnel en systèmes agroforestiers –
                   Agnéby-Tiassa (FAO)
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
                 </p>
                 <div class="btn btn-outline-danger">
                   <a href="./project.html">EN SAVOIR PLUS</a>
@@ -617,7 +562,13 @@
             </div>
           </div>
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-            <h6 class="section-title bg-white text-start text-primary pe-3">
+            <h6 class="section-title bg-white text-start pe-3" style="
+            color:#1b7ec1;
+            font-family: Din Pro;
+            font-weight: bold;
+            font-size: 2rem;
+            letter-spacing: 0.2rem;
+          ">
               DON
             </h6>
             <h1 class="mb-4">Faites un don</h1>
@@ -770,23 +721,34 @@
 
     <script src="js/main.js"></script>
 
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1, // Nombre de slides affichées à la fois
+      spaceBetween: 30, // Espace entre les slides
+      loop: true, // Permet de faire une boucle du diaporama
+      autoplay: {
+        delay: 4000, // Temps d'affichage de chaque slide en millisecondes (ici, 3 secondes)
+        disableOnInteraction: false, // Laisser la pagination automatique fonctionner même si l'utilisateur interagit avec le diaporama
+      },
+      navigation: {
+        nextEl: '.swiper-button-next', // Sélecteur pour la flèche de droite
+        prevEl: '.swiper-button-prev', // Sélecteur pour la flèche de gauche
+      },
+      effect: 'cube', // Utilisez l'effet de fondu (vous pouvez également essayer 'slide', 'cube', 'coverflow', etc.)
+      cubeEffect: {
+    slideShadows: true, // Affiche les ombres des slides adjacentes
+    shadow: true, // Affiche l'ombre du cube
+    shadowOffset: 1, // Réglez la taille de l'ombre
+    shadowScale: 0.94 // Réglez le facteur d'échelle de l'ombre
+  },
+      pagination: {
+        el: '.swiper-pagination', // Sélecteur pour la pagination automatique
+        clickable: true, // Permet de cliquer sur les points pour changer de slide
+      },
+    });
+  </script>
+
+  
   </body>
 </html>
