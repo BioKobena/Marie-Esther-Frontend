@@ -12,9 +12,6 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- Icon Font Stylesheet -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
@@ -59,53 +56,48 @@
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
       <nav
-        class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+      class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+    >
+      <a href="./index.html" class="navbar-brand p-0">
+        <img
+          src="https://fondationmarieesther.ci/wp-content/uploads/2022/05/logo_marie_esther.jpg"
+          alt="Logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
       >
-        <a href="./index.html" class="navbar-brand p-0">
-          <img
-            src="https://fondationmarieesther.ci/wp-content/uploads/2022/05/logo_marie_esther.jpg"
-            alt="Logo"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
-        >
-          <span class="fa fa-bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ms-auto py-0">
-            <a href="./index.html" class="nav-item nav-link fw-normal">Accueil</a>
-            <a href="./about.html" class="nav-item nav-link fw-normal active"
-              >Fondation Marie-Esther</a
-            >
-            <div class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle fw-normal"
-                data-bs-toggle="dropdown"
-                >Nos actions</a
-              >
-              <div class="dropdown-menu m-0">
-                <a href="./agro.html" class="dropdown-item"
-                  >Sensibilisation & Education</a
-                >
-                <a href="./devcom.html" class="dropdown-item"
-                  >Formation</a
-                >
-                <a href="./eddev.html" class="dropdown-item"
-                  >Accompagnement & insertion</a
-                >
-                <a href="./foresterie.html" class="dropdown-item"
-                  >Communication capitalisation                  </a
-                >
-                <a href="./health.html" class="dropdown-item">Développement local durable </a>
-              </div>
-            </div>
-            <a href="./project.html" class="nav-item nav-link fw-normal">Nos projets</a>
+        <span class="fa fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0">
+          <a href="./index.html" class="nav-item nav-link fw-normal w-20">Accueil</a>
+          <a href="./about.html" class="nav-item nav-link fw-normal active"
+            >Fondation Marie Esther</a
+          >
+          <div class="nav-item dropdown">
             <a
+              href="#"
+              class="nav-link dropdown-toggle fw-normal"
+              data-bs-toggle="dropdown"
+              >Nos actions</a
+            >
+            <div class="dropdown-menu m-0">
+              <a href="./foresterie.html" class="dropdown-item"
+                >Nos domaines d'expertises
+              </a>
+              <a href="./health.html" class="dropdown-item"
+                >Nos structures d'accompagnement
+              </a>
+            </div>
+          </div>
+          <a href="./project.html" class="nav-item nav-link fw-normal"
+            >Nos projets</a
+          >
+          <a
             href="https://radio.fondationmarieesther.ci/"
             target="_blank"
             class="nav-item nav-link fw-normal"
@@ -115,16 +107,19 @@
               height="40rem"
               style="position: absolute; margin-left: -3rem; top: 2.4rem"
           /></a>
-            <a href="./contact.html" class="nav-item nav-link fw-normal">Contact</a>
-          </div>
+          <a href="./contact.html" class="nav-item nav-link fw-normal"
+            >Contact</a
+          >
         </div>
-      </nav>
+        <a href="" class="btn btn-danger rounded-pill py-2 px-4">Faites un don</a>
+      </div>
+    </nav>
 
         <div class="container-fluid bg-primary py-5 mb-5 hero-about">
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-                      <h1 class="text-white fw-semi-bold wow fadeInDownBig data-wow-delay="0.3s" style="text-transform: uppercase;">La Fondation Marie Esther est un organisme non gouvernemental à but non lucratif  </h1>
+                      <h1 class="text-white wow fadeInDownBig data-wow-delay="0.3s" style="font-family: Din Pro; font-weight: bold;">La fondation Marie-Esther est un organisme non gouvernemental à but non lucratif  </h1>
                     </div>
                 </div>
             </div>
@@ -143,8 +138,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">La Fondation Marie Esther</h6>
-                    <h1 class="mb-4">Promouvoir le développement humain durable
+                    <h6 class="section-title bg-white text-start text-primary pe-3" style="font-family: Din Pro;">La Fondation Marie Esther</h6>
+                    <h1 class="mb-4 fw-bold" style="font-family: Din Pro;">Promouvoir le développement humain durable
                         à travers la réalisation d’actions  <span class="text-primary">socio-éducatives et culturelles</span></h1>
                         <p class="mb-4 wow fadeInBig" data-wow-delay="0.5s">L’idée de la création de la <span class="text-primary fw-bold">FONDATION MARIE-ESTHER </span>résulte de la volonté de ses membres d’apporter de façon concrète des changements sociaux et économiques durables tenant compte des enjeux du développement durable, pour le bien-être de la population notamment les communautés rurales désavantagées relativement</p>
                 </div>
@@ -158,7 +153,7 @@
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">CEO & Fondatrice</h6>
-                <h1 class="mb-5">CEO & Fondatrice</h1>
+                <h1 class="mb-5" style="font-family: Din Pro;">CEO & Fondatrice</h1>
             </div>
             <div class="row g-4 d-flex justify-content-center align-items-center ceo-show">
                 <div class="col-lg-8 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -186,21 +181,21 @@
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
       <div class="container">
           <div class="text-center">
-              <h6 class="section-title bg-white text-center text-primary px-3">Nos prix et distinctions</h6>
+              <h6 class="section-title bg-white text-center text-primary px-3" style="font-family: Din Pro;">Nos prix et distinctions</h6>
           </div>
     
           <div class="owl-carousel testimonial-carousel position-relative">
-              <div class="bg-white text-center p-4">
-                  <img src="./img/prix_2.jpg">
-                  <h5 class="mb-0">Prix de la meilleure Radio Citoyenne Média </h5>
+              <div class="bg-white d-flex flex-column justify-content-center align-items-center text-center p-4">
+                  <img class="w-50 h-25" src="./img/prix_2.jpg">
+                  <h5 style="font-family: Din Pro;">Prix de la meilleure Radio Citoyenne Média </h5>
               </div>
-              <div class="bg-white text-center p-4">
-                <img src="./img/radio.jpg">
-                <h5 class="mb-0">Prix de la meilleure initiative citoyenne Média </h5>
+              <div class="bg-white d-flex flex-column justify-content-center align-items-center text-center p-4">
+                <img class="w-50 h-25" src="./img/radio.jpg">
+                <h5 style="font-family: Din Pro;">Prix de la meilleure initiative citoyenne Média </h5>
             </div>
-            <div class="bg-white text-center p-4">
-              <img style="height: 21.5rem;" src="./img/prix.jpg">
-              <h5 class="mb-0">Prix de la meilleure WEB Radio </h5>
+            <div class="bg-white d-flex flex-column justify-content-center align-items-center text-center p-4">
+              <img class="w-50 h-25" style="height: 21.5rem;" src="./img/prix.jpg">
+              <h5 style="font-family: Din Pro;">Prix de la meilleure WEB Radio </h5>
           </div>
           </div>
       </div>
@@ -211,20 +206,20 @@
         <div class="container">
           <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s" style="margin-top:5rem;">
-              <h6 class="section-title bg-white text-start text-primary pe-3">
+              <h6 class="section-title bg-white text-start text-primary pe-3" style="font-family: Din Pro;">
                 Notre mission
               </h6>
-              <h1 class="mb-4">
+              <h1 class="mb-4" style="font-family: Din Pro;">
                 Accompagner les personnes et les communautés
               </h1>
-              <p class="mb-4 fs-4">
+              <p class="mb-4 fs-4" style="font-family: Din Pro;">
                 Nous accompagnons les personnes et les communautés particulièrement rurales à travers une approche participative, à réaliser leur plein potentiel, dans une démarche de Développement Durable.
               </p>
             </div>
             <div
               class="col-lg-6 wow fadeInUp"
               data-wow-delay="0.1s"
-              style="min-height: 400px"
+              style=" min-height: 400px; font-family: Din Pro"
             >
               <div class="position-relative h-100">
                 <img
@@ -245,7 +240,7 @@
             <div
               class="col-lg-6 wow fadeInUp"
               data-wow-delay="0.1s"
-              style="min-height: 400px"
+              style=" min-height: 400px; font-family: Din Pro;"
             >
               <div class="position-relative h-100">
                 <img
@@ -257,13 +252,13 @@
               </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" style="margin-top:7rem;" data-wow-delay="0.3s">
-              <h6 class="section-title bg-white text-start text-primary pe-3">
+              <h6 class="section-title bg-white text-start text-primary pe-3" style="font-family: Din Pro;">
                 Notre vision
               </h6>
-              <h1 class="mb-4">
+              <h1 class="mb-4" style="font-family: Din Pro;">
                 Etre acteur du changement durable
               </h1>
-              <p class="mb-4 fs-4">
+              <p class="mb-4 fs-4" style="font-family: Din Pro;">
                 Nous voulons être des acteurs du changement durables des personnes par la promotion de valeurs humaines et écologiques.
               </p>
             </div>
@@ -277,8 +272,8 @@
 <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
   <div class="container">
       <div class="text-center">
-          <h6 class="section-title bg-white text-center text-primary px-3">Notre équipe</h6>
-          <h3 class="mb-5 fs-5 fw-light">Elle est composée :</h3>
+          <h6 class="section-title bg-white text-center text-primary px-3" style="font-family: Din Pro;">Notre équipe</h6>
+          <h3 class="mb-5 fs-5 fw-light" style="font-family: Din Pro;">Elle est composée :</h3>
           <img src="https://fondationmarieesther.ci/wp-content/uploads/2022/05/org.jpg" alt="Organigramme">
       </div>
       </div>
@@ -296,30 +291,30 @@
       </div>
 
       <div class="owl-carousel testimonial-carousel position-relative">
-        <div class="testimonial-item bg-white text-center p-4">
-          <img src="./img/israel.png">
+        <div class="testimonial-item bg-white text-center">
+          <img class="w-50 h-25" src="./img/israel.png">
       </div>
-      <div class="testimonial-item bg-white text-center p-4">
-        <img src="https://fondationmarieesther.ci/wp-content/uploads/2022/05/LOGO-MINEDD.jpg">
+      <div class="testimonial-item bg-white text-center">
+        <img class="w-50 h-25" src="https://fondationmarieesther.ci/wp-content/uploads/2022/05/LOGO-MINEDD.jpg">
     </div>
-    <div class="testimonial-item bg-white text-center p-4">
-      <img src="https://fondationmarieesther.ci/wp-content/uploads/2022/05/MIFFE.jpg">
+    <div class="testimonial-item bg-white text-center">
+      <img class="w-50 h-25" src="https://fondationmarieesther.ci/wp-content/uploads/2022/05/MIFFE.jpg">
 
   </div>
-  <div class="testimonial-item bg-white text-center p-4">
-    <img src="https://fondationmarieesther.ci/wp-content/uploads/2022/05/MINENA.png">
+  <div class="testimonial-item bg-white text-center">
+    <img class="w-50 h-25" src="https://fondationmarieesther.ci/wp-content/uploads/2022/05/MINENA.png">
+
+</div>
+<div class="testimonial-item bg-white text-center">
+  <img class="w-50 h-25" src="./img/centre.jpg">
 
 </div>
 <div class="testimonial-item bg-white text-center p-4">
-  <img src="./img/centre.jpg">
+  <img class="w-50 h-25" src="./img/ecochamps.png">
 
 </div>
 <div class="testimonial-item bg-white text-center p-4">
-  <img src="./img/ecochamps.png">
-
-</div>
-<div class="testimonial-item bg-white text-center p-4">
-  <img src="./img/radio.jpg">
+  <img class="w-50 h-25" src="./img/radio.jpg">
 
 </div>
       </div>
@@ -446,6 +441,24 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script
 </body>
 
 </html>

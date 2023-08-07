@@ -20,7 +20,7 @@ body{
 }
 
 .fw-semi-bold {
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 .back-to-top {
@@ -269,7 +269,7 @@ body{
 }
 
 .ceo-show{
-    background: #5c7c6f;
+    background: var(--primary);
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
