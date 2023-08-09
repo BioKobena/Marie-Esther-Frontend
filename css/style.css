@@ -182,7 +182,8 @@ body{
 
 /*** Hero Header ***/
 .hero-header {
-    /* height: 100vh; */
+    height: 100vh;
+    width: 100%;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7));
     /* background-position: center center;
     background-repeat: no-repeat; */
@@ -204,7 +205,7 @@ body{
 
 .hero-agro {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(../img/quatre.jpeg);
+    background: linear-gradient(rgba(20, 20, 31, .8), rgba(20, 20, 31, .1)), url(../img/quatre.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,7 +227,7 @@ body{
 
 .hero-project {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(../img/trois.jpeg);
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/trois.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,7 +238,7 @@ body{
 
 .hero-project_agro {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url('../img/cont_files/main-presentant-remix-environnement-durable-terre_53876-127114.jpg');
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/cont_files/main-presentant-remix-environnement-durable-terre_53876-127114.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,7 +249,7 @@ body{
 
 .hero-todo {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://www.ivoire24.info/wp-content/uploads/2021/07/Screenshot_20210714-181226.png);
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(https://www.ivoire24.info/wp-content/uploads/2021/07/Screenshot_20210714-181226.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,7 +260,7 @@ body{
 
 .hero-contact {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://img.freepik.com/photos-gratuite/gros-plan-jeune-femme-souriante-parler-telephone-portable_23-2147936148.jpg?w=2000&t=st=1689809831~exp=1689810431~hmac=ff74fc54ecf41c7fba01d0270c880122129d68e52b9cb43f072fc62cb2cd3eae);
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(https://img.freepik.com/photos-gratuite/gros-plan-jeune-femme-souriante-parler-telephone-portable_23-2147936148.jpg?w=2000&t=st=1689809831~exp=1689810431~hmac=ff74fc54ecf41c7fba01d0270c880122129d68e52b9cb43f072fc62cb2cd3eae);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,6 +283,7 @@ body{
     position: relative;
     display: inline-block;
     text-transform: uppercase;
+    font-size: 1.2rem;
 }
 
 .section-title::before {
@@ -557,4 +559,50 @@ body{
     color: white; /* Couleur du texte */
     padding: 10px;
     font-size: 18px;
+  }
+
+  .text-inside{
+    position: absolute;
+    bottom: 50%; /* Ajustez la position verticale du texte */
+    left: 50%; /* Ajustez la position horizontale du texte */
+    color: var(--primary); /* Couleur du texte */
+    /* padding: 10px; */
+    font-size: 18px;
+  }
+
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(20, 20, 31, .6), rgba(20, 20, 31, .5));
+    z-index: 1; /* Place l'overlay au-dessus de l'image */
+  }
+
+  .image-container {
+    width: 100%; /* Ajustez la largeur souhaitée */
+    height: 100vh; /* Ajustez la hauteur souhaitée */
+    overflow: hidden; /* Cache le contenu dépassant de la taille définie */
+    position: relative; /* Permet de positionner l'overlay par rapport à ce conteneur */
+  }
+
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: contain;
+    z-index: 2; /* Place l'image au-dessus de l'overlay */
+  }
+
+  .text-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* Place le texte au-dessus de l'image et de l'overlay */
   }
