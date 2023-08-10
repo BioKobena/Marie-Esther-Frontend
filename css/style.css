@@ -236,6 +236,50 @@ body{
     align-items:center;
 }
 
+.hero-agroforesterie {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(https://img.freepik.com/photos-gratuite/reboisement-fait-par-groupe-benevoles_23-2149500827.jpg?w=1800&t=st=1691623723~exp=1691624323~hmac=f037dbd7ac0905a8b011e25fbdedf9848c9c2bdc60d8caf32538a03b770a0266);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero-Formation {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(https://img.freepik.com/photos-gratuite/coup-moyen-homme-coupant-branches_23-2149142890.jpg?w=1800&t=st=1691625503~exp=1691626103~hmac=94c95286e29e4d750efac9af3f3604bcd2dc074aab28796ff10e74a05e9ca8e8);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero-Quinzaine{
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url("../img/pro1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero-Bio{
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url("../img/pro1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
 .hero-project_agro {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/cont_files/main-presentant-remix-environnement-durable-terre_53876-127114.jpg');
