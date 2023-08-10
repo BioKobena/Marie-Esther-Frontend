@@ -280,6 +280,28 @@ body{
     align-items:center;
 }
 
+.hero-ecologie{
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url("../img/mission.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero-agriculture{
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url("../img/pro5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
 .hero-project_agro {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/cont_files/main-presentant-remix-environnement-durable-terre_53876-127114.jpg');
