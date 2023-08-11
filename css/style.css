@@ -324,6 +324,48 @@ body{
     align-items:center;
 }
 
+.hero-centre {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/centre.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero-protection {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/fam.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero-ecochamps {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/ecochamps.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.hero-don {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('https://img.freepik.com/photos-premium/nous-devons-tous-jouer-notre-role-dans-protection-nature-gros-plan-groupe-personnes-meconnaissables-tenant-plante-poussant-hors-du-sol_590464-20858.jpg?w=1380');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
 .hero-contact {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(https://img.freepik.com/photos-gratuite/gros-plan-jeune-femme-souriante-parler-telephone-portable_23-2147936148.jpg?w=2000&t=st=1689809831~exp=1689810431~hmac=ff74fc54ecf41c7fba01d0270c880122129d68e52b9cb43f072fc62cb2cd3eae);
