@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Mulish";
@@ -12,9 +12,10 @@
     --dark: #14141F;
 }
 
-body{
+body {
     font-family: "Mulish";
 }
+
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -52,13 +53,13 @@ body{
     font-family: "Mulish";
     font-weight: 600;
     transition: .5s;
-    border:none;
+    border: none;
 }
 
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
-    border:none;
+    border: none;
 
 }
 
@@ -71,14 +72,14 @@ body{
 .btn-sm-square {
     width: 32px;
     height: 32px;
-    border:none;
+    border: none;
 
 }
 
 .btn-lg-square {
     width: 48px;
     height: 48px;
-    border:none;
+    border: none;
 
 }
 
@@ -91,7 +92,7 @@ body{
     justify-content: center;
     font-weight: normal;
     border-radius: 0px;
-    border:none;
+    border: none;
 
 }
 
@@ -117,7 +118,7 @@ body{
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--light) !important;
-    background:var(--primary) !important;
+    background: var(--primary) !important;
 }
 
 .navbar-light .navbar-brand img {
@@ -161,7 +162,7 @@ body{
         border-bottom: 1px solid rgba(256, 256, 256, .1);
         z-index: 999;
     }
-    
+
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
@@ -194,7 +195,7 @@ body{
 .hero-header {
     width: 100vw;
     height: 100%;
-    background-size:contain;
+    background-size: contain;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7));
 }
 
@@ -206,7 +207,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .hero-agro {
@@ -217,10 +218,10 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
-.hero-training{
+.hero-training {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .1), rgba(20, 20, 31, .1)), url(https://img.freepik.com/photos-premium/groupe-benevoles-africains-heureux_151355-6215.jpg?w=2000);
     background-position: center center;
@@ -228,7 +229,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .hero-project {
@@ -239,7 +240,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .hero-agroforesterie {
@@ -250,7 +251,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .hero-Formation {
@@ -261,10 +262,10 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
-.hero-Quinzaine{
+.hero-Quinzaine {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url("../img/aboude.jpg");
     background-position: center center;
@@ -272,10 +273,10 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
-.hero-Bio{
+.hero-Bio {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url("../img/promouvoir.jpg");
     background-position: center center;
@@ -283,10 +284,10 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
-.hero-ecologie{
+.hero-ecologie {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url("../img/champ.jpeg");
     background-position: center center;
@@ -294,10 +295,10 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
-.hero-agriculture{
+.hero-agriculture {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url("../img/projet_ecolo_agro.jpg");
     background-position: center center;
@@ -305,7 +306,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .hero-project_agro {
@@ -316,7 +317,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .hero-todo {
@@ -327,7 +328,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .hero-centre {
@@ -338,7 +339,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .hero-protection {
@@ -349,7 +350,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .hero-ecochamps {
@@ -360,8 +361,9 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
+
 .hero-don {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('https://img.freepik.com/photos-premium/nous-devons-tous-jouer-notre-role-dans-protection-nature-gros-plan-groupe-personnes-meconnaissables-tenant-plante-poussant-hors-du-sol_590464-20858.jpg?w=1380');
@@ -370,8 +372,9 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
+
 .hero-contact {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url("../img/gros-plan-jeune-femme-souriante-parler-telephone-portable_23-2147936148.jpg");
@@ -380,14 +383,14 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
-.ceo-show{
+.ceo-show {
     background: var(--primary);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
 }
 
@@ -504,13 +507,13 @@ body{
     color: var(--primary);
     border-radius: 20px;
     border-bottom: 1px solid var(--primary);
-    border:none;
+    border: none;
 }
 
 .team-item .btn:hover {
     background: var(--primary);
     color: #FFFFFF;
-    border:none;
+    border: none;
 
 }
 
@@ -539,6 +542,7 @@ body{
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -546,6 +550,7 @@ body{
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -573,7 +578,7 @@ body{
     justify-content: center;
 }
 
-.section{
+.section {
     width: 100vw;
     height: 50vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('https://img.freepik.com/photos-gratuite/ecran-numerique-journee-environnement_23-2148884835.jpg?w=1480&t=st=1687395641~exp=1687396241~hmac=5f3c591bab708853411d3dc821b7c49988164972cf44a44f2a6ca8f060ce7df1') fixed center;
@@ -597,10 +602,11 @@ body{
 
 
 /*** Footer ***/
-.footer{
-  background:linear-gradient(rgba(20, 20, 31, .9), rgba(20, 20, 31, .7)), url("../img/bgfooter.avif") no-repeat top center;
-  background-size:cover;
+.footer {
+    background: linear-gradient(rgba(20, 20, 31, .9), rgba(20, 20, 31, .7)), url("../img/bgfooter.avif") no-repeat top center;
+    background-size: cover;
 }
+
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;
@@ -670,48 +676,61 @@ body{
 
 .text-container {
     position: absolute;
-    bottom: 10px; /* Ajustez la position verticale du texte */
-    left: 10px; /* Ajustez la position horizontale du texte */
-    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond semi-transparente */
-    color: white; /* Couleur du texte */
+    bottom: 10px;
+    /* Ajustez la position verticale du texte */
+    left: 10px;
+    /* Ajustez la position horizontale du texte */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Couleur de fond semi-transparente */
+    color: white;
+    /* Couleur du texte */
     padding: 10px;
     font-size: 18px;
-  }
+}
 
-  .text-inside{
+.text-inside {
     position: absolute;
-    bottom: 50%; /* Ajustez la position verticale du texte */
-    left: 50%; /* Ajustez la position horizontale du texte */
-    color: var(--primary); /* Couleur du texte */
+    bottom: 50%;
+    /* Ajustez la position verticale du texte */
+    left: 50%;
+    /* Ajustez la position horizontale du texte */
+    color: var(--primary);
+    /* Couleur du texte */
     /* padding: 10px; */
     font-size: 18px;
-  }
+}
 
-  .image-overlay {
+.image-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: linear-gradient(rgba(20, 20, 31, .6), rgba(20, 20, 31, .5));
-    z-index: 1; /* Place l'overlay au-dessus de l'image */
-  }
+    z-index: 1;
+    /* Place l'overlay au-dessus de l'image */
+}
 
-  .image-container {
-    width: 100%; /* Ajustez la largeur souhaitée */
-    height: 100vh; /* Ajustez la hauteur souhaitée */
-    overflow: hidden; /* Cache le contenu dépassant de la taille définie */
-    position: relative; /* Permet de positionner l'overlay par rapport à ce conteneur */
-  }
+.image-container {
+    width: 100%;
+    /* Ajustez la largeur souhaitée */
+    height: 100vh;
+    /* Ajustez la hauteur souhaitée */
+    overflow: hidden;
+    /* Cache le contenu dépassant de la taille définie */
+    position: relative;
+    /* Permet de positionner l'overlay par rapport à ce conteneur */
+}
 
-  .image-container img {
+.image-container img {
     max-width: 100%;
     max-height: 100%;
     background-size: contain;
-    z-index: 2; /* Place l'image au-dessus de l'overlay */
-  }
+    z-index: 2;
+    /* Place l'image au-dessus de l'overlay */
+}
 
-  .text-content {
+.text-content {
     position: absolute;
     top: 0;
     left: 0;
@@ -721,44 +740,60 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 2; /* Place le texte au-dessus de l'image et de l'overlay */
-  }
+    z-index: 2;
+    /* Place le texte au-dessus de l'image et de l'overlay */
+}
 
-  .slide-background {
-    background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la diapositive */
-    background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+.slide-background {
+    background-size: cover;
+    /* Ajuster la taille de l'image pour couvrir toute la diapositive */
+    background-repeat: no-repeat;
+    /* Empêcher la répétition de l'image */
     background-position: center center;
     height: 100%;
-     /* Centrer l'image horizontalement et verticalement */
+    /* Centrer l'image horizontalement et verticalement */
 
-  }
+}
 
-  /* Pour la première diapositive */
+/* Pour la première diapositive */
 .slide-1 {
     background-image: url('../img/accompagner.jpg');
-  }
-  
-  /* Pour la deuxième diapositive */
-  .slide-2 {
-    background-image: url('../img/champ1.jpeg');
-  }
-  
-  /* Pour la troisième diapositive */
-  .slide-3 {
-    background-image: url('../img/agriculteur-qui-utilise-pelle-pour-creuser-sol-dans-ses-rizieres_1150-17239.avif');
-  }
-  
-  /* Pour la quatrième diapositive */
-  .slide-4 {
-    background-image: url('../img/garcon-pere-coup-moyen-travaillant-ensemble_23-2149142899.jpg');
-  }
+}
 
-  @media (max-width:414px) {
-    body{
+/* Pour la deuxième diapositive */
+.slide-2 {
+    background-image: url('../img/champ1.jpeg');
+}
+
+/* Pour la troisième diapositive */
+.slide-3 {
+    background-image: url('../img/agriculteur-qui-utilise-pelle-pour-creuser-sol-dans-ses-rizieres_1150-17239.avif');
+}
+
+/* Pour la quatrième diapositive */
+.slide-4 {
+    background-image: url('../img/garcon-pere-coup-moyen-travaillant-ensemble_23-2149142899.jpg');
+}
+
+@media (max-width:414px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Pour les diapositives avec des images de fond */
+    .slide-background {
+        height: 50%;
+        /* Hauteur par défaut, ajustée pour les écrans larges */
+    }
+}
+
+@media (max-width:375px) {
+    * {
         overflow-x: hidden;
     }
     /* Pour les diapositives avec des images de fond */
-.slide-background {
-    height: 50%; /* Hauteur par défaut, ajustée pour les écrans larges */
-  }   
+    .slide-background {
+        height: 50%;
+        /* Hauteur par défaut, ajustée pour les écrans larges */
+    }
 }
