@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: "Mulish";
-    overflow-x: hidden;
 }
 
 :root {
@@ -14,6 +13,7 @@
 
 body {
     font-family: "Mulish";
+    overflow-x: hidden;
 }
 
 .fw-medium {
@@ -776,8 +776,8 @@ body {
 }
 
 @media (max-width:414px) {
-    body {
-        overflow-x: hidden;
+    .contact-respo{
+        width: 100%;
     }
 
     /* Pour les diapositives avec des images de fond */
