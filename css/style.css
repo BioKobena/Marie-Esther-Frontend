@@ -775,9 +775,11 @@ body {
     background-image: url('../img/garcon-pere-coup-moyen-travaillant-ensemble_23-2149142899.jpg');
 }
 
+
 @media (max-width:414px) {
     .contact-respo{
-        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     /* Pour les diapositives avec des images de fond */
@@ -790,6 +792,10 @@ body {
 @media (max-width:375px) {
     * {
         overflow-x: hidden;
+    }
+    .contact-respo{
+        display: flex;
+        flex-direction: column;
     }
     /* Pour les diapositives avec des images de fond */
     .slide-background {
