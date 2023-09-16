@@ -182,7 +182,7 @@ body{
 
 /*** Hero Header ***/
 .hero-header {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7));
 }
