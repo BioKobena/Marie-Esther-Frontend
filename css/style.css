@@ -197,6 +197,7 @@ body {
     height: 100%;
     background-size: contain;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7));
+    background-size:contain;
 }
 
 .hero-about {
@@ -208,6 +209,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size:cover;
 }
 
 .hero-agro {
