@@ -712,7 +712,7 @@ body{
 
   @media (max-width:414px) {
     body{
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }
     img{
         width: 100%;
