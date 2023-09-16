@@ -790,9 +790,6 @@ body {
 }
 
 @media (max-width:375px) {
-    * {
-        overflow-x: hidden;
-    }
     .contact-respo{
         display: flex;
         flex-direction: column;
