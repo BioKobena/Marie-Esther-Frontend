@@ -7,6 +7,7 @@
     <meta content name="keywords" />
     <meta content name="description" />
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -36,7 +37,6 @@
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link
       href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
       rel="stylesheet" />
@@ -197,32 +197,32 @@
           </div>
           <div class="col-lg-4 col-md-12 w-75 wow fadeInUp"
             data-wow-delay="0.5s">
-            <form class="form-container d-flex flex-column w-100">
+            <form class="form-container d-flex flex-column w-100" id="form">
               <div class="row g-3">
                 <div class="col-md-6">
                   <div class="form-floating">
-                    <input type="text" class="form-control" id="name"
-                      placeholder="Vos Nom & Prenoms">
-                    <label for="name">Vos Nom & Prénoms</label>
+                    <input type="text" class="form-control" id="from_name"
+                      placeholder="Vos Nom & Prenoms" name="from_name">
+                    <label for="from_name">Vos Nom & Prénoms</label>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-floating">
                     <input type="email" class="form-control" id="email"
-                      placeholder="Votre e-mail">
+                      placeholder="Votre e-mail"  name="email">
                     <label for="email">Votre e-mail</label>
                   </div>
                 </div>
                 <div class="col-12">
                   <div class="form-floating">
                     <textarea class="form-control"
-                      placeholder="Leave a message here" id="message"
-                      style="height: 100px"></textarea>
+                      placeholder="Laissez nous un message" id="message"
+                      style="height: 100px" name="message"></textarea>
                     <label for="message">Message</label>
                   </div>
                 </div>
                 <div class="col-12">
-                  <button class="btn btn-primary w-100 py-3" type="submit">Envoyez
+                  <button class="btn btn-primary w-100 py-3" type="submit" id="button">Envoyez
                     <i class="fa fa-seedling"></i> </button>
                 </div>
               </div>
@@ -332,7 +332,6 @@
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
@@ -340,23 +339,13 @@
 
     <script src="js/main.js"></script>
 
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('pF-hBpUlU8wM00yaI')
+</script>
+<script src="./js/email.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </body>
 </html>
