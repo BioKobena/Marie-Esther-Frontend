@@ -215,6 +215,7 @@ body {
 .hero-agro {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .8), rgba(20, 20, 31, .1)), url('../img/projet_insertion.jpg');
+    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -335,7 +336,7 @@ body {
 
 .hero-centre {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/centre.jpg');
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/aboude.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -357,7 +358,7 @@ body {
 
 .hero-ecochamps {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/ecochamps.png');
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/champ1.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -690,6 +691,7 @@ body {
     font-size: 18px;
 }
 
+
 .text-inside {
     position: absolute;
     bottom: 50%;
@@ -758,23 +760,23 @@ body {
 }
 
 /* Pour la première diapositive */
-.slide-1 {
+/* .slide-1 {
     background-image: url('../img/accompagner.jpg');
-}
+} */
 
 /* Pour la deuxième diapositive */
 .slide-2 {
-    background-image: url('../img/champ1.jpeg');
+    background-image: url('../img/education-dev.jpeg');
 }
 
 /* Pour la troisième diapositive */
 .slide-3 {
-    background-image: url('../img/agriculteur-prdouit.jpeg');
+    background-image: url('../img/agro-ecolo.jpeg');
 }
 
 /* Pour la quatrième diapositive */
 .slide-4 {
-    background-image: url('../img/pere-fils.jpeg');
+    background-image: url('../img/programme-femme.jpeg');
 }
 
 
@@ -803,3 +805,13 @@ body {
     }
 }
 
+.under-fondation{
+    font-family: Mulish;
+    font-size: 1.5rem;
+    color:white;
+}
+
+.title-about{
+    font-family: Mulish;
+    color:#0e74be;
+}
