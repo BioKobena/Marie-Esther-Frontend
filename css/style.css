@@ -347,7 +347,7 @@ body {
 
 .hero-protection {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/protection.avif');
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/Nos\ axes\ d\'intervention.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -358,7 +358,7 @@ body {
 
 .hero-ecochamps {
     height: 100vh;
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/champ1.jpeg');
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/ecochamps-bio.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -777,6 +777,10 @@ body {
 /* Pour la quatrième diapositive */
 .slide-4 {
     background-image: url('../img/programme-femme.jpeg');
+}
+
+.slide-5 {
+    background-image: url('../img/foret.avif');
 }
 
 
