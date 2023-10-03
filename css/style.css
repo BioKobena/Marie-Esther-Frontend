@@ -367,6 +367,17 @@ body {
     align-items: center;
 }
 
+.hero-devhumain {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/caracteres-personnes-tenant-icones-energie-verte_53876-59870.avif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero-don {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('https://img.freepik.com/photos-premium/nous-devons-tous-jouer-notre-role-dans-protection-nature-gros-plan-groupe-personnes-meconnaissables-tenant-plante-poussant-hors-du-sol_590464-20858.jpg?w=1380');
