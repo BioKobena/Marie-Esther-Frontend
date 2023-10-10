@@ -378,6 +378,73 @@ body {
     align-items: center;
 }
 
+.hero-green {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/pot-economie-verte-argent-plante-croissance_53876-104972.avif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-comdev {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/com-cap.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-educationdev {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/agri-culture.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-agrisaine {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/agrisaine.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-devcommunautaire {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/dev-communautaire.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-carbone {
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('../img/carbone-vert.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .hero-don {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url('https://img.freepik.com/photos-premium/nous-devons-tous-jouer-notre-role-dans-protection-nature-gros-plan-groupe-personnes-meconnaissables-tenant-plante-poussant-hors-du-sol_590464-20858.jpg?w=1380');
