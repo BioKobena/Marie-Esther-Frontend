@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Mulish";
+
 }
 
 :root {
@@ -9,6 +10,10 @@
     --secondary: #FE8800;
     --light: #F5F5F5;
     --dark: #14141F;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 body {
@@ -197,7 +202,7 @@ body {
     height: 100%;
     background-size: contain;
     background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7));
-    background-size:contain;
+    background-size: contain;
 }
 
 .hero-about {
@@ -209,13 +214,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size:cover;
+    background-size: cover;
 }
 
 .hero-agro {
     height: 100vh;
     background: linear-gradient(rgba(20, 20, 31, .8), rgba(20, 20, 31, .1)), url('../img/projet_insertion.jpg');
-    
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -598,6 +603,12 @@ body {
 
 }
 
+.testimonial-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -5;
+}
 
 /*** Testimonial ***/
 .testimonial-carousel::before {
@@ -609,6 +620,7 @@ body {
     width: 0;
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
+
 }
 
 .testimonial-carousel::after {
@@ -863,23 +875,24 @@ body {
 
 
 @media (max-width:414px) {
-    .contact-respo{
+    .contact-respo {
         display: flex;
         flex-direction: column;
     }
 
     /* Pour les diapositives avec des images de fond */
     .slide-background {
-        height: 50%;
+        height: 40%;
         /* Hauteur par défaut, ajustée pour les écrans larges */
     }
 }
 
 @media (max-width:375px) {
-    .contact-respo{
+    .contact-respo {
         display: flex;
         flex-direction: column;
     }
+
     /* Pour les diapositives avec des images de fond */
     .slide-background {
         height: 50%;
@@ -887,13 +900,13 @@ body {
     }
 }
 
-.under-fondation{
+.under-fondation {
     font-family: Mulish;
     font-size: 1.5rem;
-    color:white;
+    color: white;
 }
 
-.title-about{
+.title-about {
     font-family: Mulish;
-    color:#0e74be;
+    color: #0e74be;
 }
