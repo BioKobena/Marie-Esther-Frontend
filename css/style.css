@@ -156,6 +156,16 @@ body {
     .navbar-light .navbar-brand img {
         max-height: 45px;
     }
+
+    .swiper-container{
+        height: 50vh;
+    }
+    .swiper-wrapper, .image-overlay{
+        height: 50vh;
+    }
+    .text-container{
+        width: 80vw;
+    }
 }
 
 @media (min-width: 992px) {
@@ -192,6 +202,16 @@ body {
 
     .navbar-light .navbar-nav .nav-link.nav-contact::before {
         display: none;
+    }
+
+    .swiper-container{
+        height: 50vh;
+    }
+    .swiper-wrapper, .image-overlay{
+        height: 50vh;
+    }
+    .text-container{
+        width: 80vw;
     }
 }
 
@@ -640,6 +660,16 @@ body {
     .testimonial-carousel::after {
         width: 200px;
     }
+
+    .swiper-container{
+        height: 50vh;
+    }
+    .swiper-wrapper, .image-overlay{
+        height: 50vh;
+    }
+    .text-container{
+        width: 80vw;
+    }
 }
 
 @media (min-width: 992px) {
@@ -647,6 +677,16 @@ body {
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
+    }
+
+    .swiper-container{
+        height: 50vh;
+    }
+    .swiper-wrapper, .image-overlay{
+        height: 50vh;
+    }
+    .text-container{
+        width: 80vw;
     }
 }
 
@@ -770,13 +810,9 @@ body {
 .text-container {
     position: absolute;
     bottom: 10px;
-    /* Ajustez la position verticale du texte */
     left: 10px;
-    /* Ajustez la position horizontale du texte */
     background-color: rgba(0, 0, 0, 0.7);
-    /* Couleur de fond semi-transparente */
     color: white;
-    /* Couleur du texte */
     padding: 10px;
     font-size: 18px;
 }
@@ -785,12 +821,8 @@ body {
 .text-inside {
     position: absolute;
     bottom: 50%;
-    /* Ajustez la position verticale du texte */
     left: 50%;
-    /* Ajustez la position horizontale du texte */
     color: var(--primary);
-    /* Couleur du texte */
-    /* padding: 10px; */
     font-size: 18px;
 }
 
@@ -857,6 +889,7 @@ body {
 /* Pour la deuxième diapositive */
 .slide-2 {
     background-image: url('../img/education-dev.jpeg');
+    background-size:cover;
 }
 
 /* Pour la troisième diapositive */
@@ -875,28 +908,46 @@ body {
 
 
 @media (max-width:414px) {
+
+    .hero-about, .hero-agriculture, .hero-agrisaine, .hero-agro, .hero-agroforesterie,
+    .hero-Bio, .hero-carbone, .hero-centre, .hero-comdev, .hero-contact, .hero-devcommunautaire,
+    .hero-devhumain, .hero-don, .hero-educationdev, .hero-todo, .hero-ecochamps, .hero-ecologie,
+    .hero-Formation, .hero-green, .hero-header, .hero-project, .hero-project_agro, .hero-protection,
+    .hero-Quinzaine, .hero-training{
+        height: 75vh;
+    }
+
     .contact-respo {
         display: flex;
         flex-direction: column;
     }
 
-    /* Pour les diapositives avec des images de fond */
-    .slide-background {
-        height: 40%;
-        /* Hauteur par défaut, ajustée pour les écrans larges */
+    .swiper-container{
+        height: 50vh;
+    }
+    .swiper-wrapper, .image-overlay{
+        height: 50vh;
+    }
+    .text-container{
+        width: 80vw;
     }
 }
 
 @media (max-width:375px) {
+
     .contact-respo {
         display: flex;
         flex-direction: column;
     }
 
-    /* Pour les diapositives avec des images de fond */
-    .slide-background {
-        height: 50%;
-        /* Hauteur par défaut, ajustée pour les écrans larges */
+    .swiper-container{
+        height: 50vh;
+    }
+    .swiper-wrapper, .image-overlay{
+        height: 50vh;
+    }
+    .text-container{
+        width: 80vw;
     }
 }
 
