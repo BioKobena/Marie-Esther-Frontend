@@ -212,7 +212,7 @@ body {
         display: none;
     }
 
-    .swiper-container {
+    /* .swiper-container {
         height: 50vh;
     }
 
@@ -223,7 +223,7 @@ body {
 
     .text-container {
         width: 80vw;
-    }
+    } */
 
     /* .hero-about, .hero-agriculture, .hero-agrisaine, .hero-agro, .hero-agroforesterie,
     .hero-Bio, .hero-carbone, .hero-centre, .hero-comdev, .hero-contact, .hero-devcommunautaire,
