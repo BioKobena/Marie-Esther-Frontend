@@ -157,22 +157,22 @@ body {
         max-height: 45px;
     }
 
-    .swiper-container{
+    /* .swiper-container{
         height: 50vh;
     }
     .swiper-wrapper, .image-overlay{
         height: 50vh;
-    }
-    .text-container{
+    } */
+    /* .text-container{
         width: 80vw;
-    }
-    .hero-about, .hero-agriculture, .hero-agrisaine, .hero-agro, .hero-agroforesterie,
+    } */
+    /* .hero-about, .hero-agriculture, .hero-agrisaine, .hero-agro, .hero-agroforesterie,
     .hero-Bio, .hero-carbone, .hero-centre, .hero-comdev, .hero-contact, .hero-devcommunautaire,
     .hero-devhumain, .hero-don, .hero-educationdev, .hero-todo, .hero-ecochamps, .hero-ecologie,
     .hero-Formation, .hero-green, .hero-header, .hero-project, .hero-project_agro, .hero-protection,
     .hero-Quinzaine, .hero-training{
         height: 75vh;
-    }
+    } */
 }
 
 
@@ -212,23 +212,26 @@ body {
         display: none;
     }
 
-    .swiper-container{
+    .swiper-container {
         height: 50vh;
     }
-    .swiper-wrapper, .image-overlay{
+
+    .swiper-wrapper,
+    .image-overlay {
         height: 50vh;
     }
-    .text-container{
+
+    .text-container {
         width: 80vw;
     }
 
-    .hero-about, .hero-agriculture, .hero-agrisaine, .hero-agro, .hero-agroforesterie,
+    /* .hero-about, .hero-agriculture, .hero-agrisaine, .hero-agro, .hero-agroforesterie,
     .hero-Bio, .hero-carbone, .hero-centre, .hero-comdev, .hero-contact, .hero-devcommunautaire,
     .hero-devhumain, .hero-don, .hero-educationdev, .hero-todo, .hero-ecochamps, .hero-ecologie,
     .hero-Formation, .hero-green, .hero-header, .hero-project, .hero-project_agro, .hero-protection,
     .hero-Quinzaine, .hero-training{
         height: 75vh;
-    }
+    } */
 }
 
 
@@ -677,20 +680,35 @@ body {
         width: 200px;
     }
 
-    .swiper-container{
-        height: 50vh;
-    }
-    .swiper-wrapper, .image-overlay{
-        height: 50vh;
-    }
-    .text-container{
+    .text-container {
         width: 80vw;
     }
-    .hero-about, .hero-agriculture, .hero-agrisaine, .hero-agro, .hero-agroforesterie,
-    .hero-Bio, .hero-carbone, .hero-centre, .hero-comdev, .hero-contact, .hero-devcommunautaire,
-    .hero-devhumain, .hero-don, .hero-educationdev, .hero-todo, .hero-ecochamps, .hero-ecologie,
-    .hero-Formation, .hero-green, .hero-header, .hero-project, .hero-project_agro, .hero-protection,
-    .hero-Quinzaine, .hero-training{
+
+    .hero-about,
+    .hero-agriculture,
+    .hero-agrisaine,
+    .hero-agro,
+    .hero-agroforesterie,
+    .hero-Bio,
+    .hero-carbone,
+    .hero-centre,
+    .hero-comdev,
+    .hero-contact,
+    .hero-devcommunautaire,
+    .hero-devhumain,
+    .hero-don,
+    .hero-educationdev,
+    .hero-todo,
+    .hero-ecochamps,
+    .hero-ecologie,
+    .hero-Formation,
+    .hero-green,
+    .hero-header,
+    .hero-project,
+    .hero-project_agro,
+    .hero-protection,
+    .hero-Quinzaine,
+    .hero-training {
         height: 75vh;
     }
 }
@@ -702,20 +720,41 @@ body {
         width: 300px;
     }
 
-    .swiper-container{
+    /* .swiper-container{
         height: 50vh;
     }
     .swiper-wrapper, .image-overlay{
         height: 50vh;
-    }
-    .text-container{
+    } */
+    .text-container {
         width: 80vw;
     }
-    .hero-about, .hero-agriculture, .hero-agrisaine, .hero-agro, .hero-agroforesterie,
-    .hero-Bio, .hero-carbone, .hero-centre, .hero-comdev, .hero-contact, .hero-devcommunautaire,
-    .hero-devhumain, .hero-don, .hero-educationdev, .hero-todo, .hero-ecochamps, .hero-ecologie,
-    .hero-Formation, .hero-green, .hero-header, .hero-project, .hero-project_agro, .hero-protection,
-    .hero-Quinzaine, .hero-training{
+
+    .hero-about,
+    .hero-agriculture,
+    .hero-agrisaine,
+    .hero-agro,
+    .hero-agroforesterie,
+    .hero-Bio,
+    .hero-carbone,
+    .hero-centre,
+    .hero-comdev,
+    .hero-contact,
+    .hero-devcommunautaire,
+    .hero-devhumain,
+    .hero-don,
+    .hero-educationdev,
+    .hero-todo,
+    .hero-ecochamps,
+    .hero-ecologie,
+    .hero-Formation,
+    .hero-green,
+    .hero-header,
+    .hero-project,
+    .hero-project_agro,
+    .hero-protection,
+    .hero-Quinzaine,
+    .hero-training {
         height: 75vh;
     }
 }
@@ -911,15 +950,11 @@ body {
 
 }
 
-/* Pour la première diapositive */
-/* .slide-1 {
-    background-image: url('../img/accompagner.jpg');
-} */
 
 /* Pour la deuxième diapositive */
 .slide-2 {
     background-image: url('../img/education-dev.jpeg');
-    background-size:cover;
+    background-size: cover;
 }
 
 /* Pour la troisième diapositive */
@@ -939,11 +974,31 @@ body {
 
 @media (max-width:414px) {
 
-    .hero-about, .hero-agriculture, .hero-agrisaine, .hero-agro, .hero-agroforesterie,
-    .hero-Bio, .hero-carbone, .hero-centre, .hero-comdev, .hero-contact, .hero-devcommunautaire,
-    .hero-devhumain, .hero-don, .hero-educationdev, .hero-todo, .hero-ecochamps, .hero-ecologie,
-    .hero-Formation, .hero-green, .hero-header, .hero-project, .hero-project_agro, .hero-protection,
-    .hero-Quinzaine, .hero-training{
+    .hero-about,
+    .hero-agriculture,
+    .hero-agrisaine,
+    .hero-agro,
+    .hero-agroforesterie,
+    .hero-Bio,
+    .hero-carbone,
+    .hero-centre,
+    .hero-comdev,
+    .hero-contact,
+    .hero-devcommunautaire,
+    .hero-devhumain,
+    .hero-don,
+    .hero-educationdev,
+    .hero-todo,
+    .hero-ecochamps,
+    .hero-ecologie,
+    .hero-Formation,
+    .hero-green,
+    .hero-header,
+    .hero-project,
+    .hero-project_agro,
+    .hero-protection,
+    .hero-Quinzaine,
+    .hero-training {
         height: 75vh;
     }
 
@@ -952,13 +1007,16 @@ body {
         flex-direction: column;
     }
 
-    .swiper-container{
+    .swiper-container {
         height: 50vh;
     }
-    .swiper-wrapper, .image-overlay{
+
+    .swiper-wrapper,
+    .image-overlay {
         height: 50vh;
     }
-    .text-container{
+
+    .text-container {
         width: 80vw;
     }
 }
@@ -970,20 +1028,44 @@ body {
         flex-direction: column;
     }
 
-    .swiper-container{
+    .swiper-container {
         height: 50vh;
     }
-    .swiper-wrapper, .image-overlay{
+
+    .swiper-wrapper,
+    .image-overlay {
         height: 50vh;
     }
-    .text-container{
+
+    .text-container {
         width: 80vw;
     }
-    .hero-about, .hero-agriculture, .hero-agrisaine, .hero-agro, .hero-agroforesterie,
-    .hero-Bio, .hero-carbone, .hero-centre, .hero-comdev, .hero-contact, .hero-devcommunautaire,
-    .hero-devhumain, .hero-don, .hero-educationdev, .hero-todo, .hero-ecochamps, .hero-ecologie,
-    .hero-Formation, .hero-green, .hero-header, .hero-project, .hero-project_agro, .hero-protection,
-    .hero-Quinzaine, .hero-training{
+
+    .hero-about,
+    .hero-agriculture,
+    .hero-agrisaine,
+    .hero-agro,
+    .hero-agroforesterie,
+    .hero-Bio,
+    .hero-carbone,
+    .hero-centre,
+    .hero-comdev,
+    .hero-contact,
+    .hero-devcommunautaire,
+    .hero-devhumain,
+    .hero-don,
+    .hero-educationdev,
+    .hero-todo,
+    .hero-ecochamps,
+    .hero-ecologie,
+    .hero-Formation,
+    .hero-green,
+    .hero-header,
+    .hero-project,
+    .hero-project_agro,
+    .hero-protection,
+    .hero-Quinzaine,
+    .hero-training {
         height: 75vh;
     }
 }
