@@ -107,7 +107,7 @@ body {
     font-family: "Mulish";
     position: relative;
     margin-right: 25px;
-    padding: 20px 10px;
+    padding: 10px 10px;
     color: #FFFFFF !important;
     font-size: 18px;
     font-weight: 600;
@@ -116,7 +116,7 @@ body {
 }
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
-    padding: 20px 10px;
+    padding: 10px 10px;
     color: var(--dark) !important;
 }
 
@@ -835,7 +835,7 @@ body {
     color: #FFFFFF;
     font-size: 15px;
     font-weight: normal;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .3s;
 }
 
